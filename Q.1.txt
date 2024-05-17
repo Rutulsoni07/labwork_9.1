@@ -1,0 +1,21 @@
+Q.1 Write a Program to convert the given string in uppercase without using any string function.
+For example,
+Input:
+Enter any string: hello world
+
+Output:
+Uppercase string: HELLO WORLD
+input=
+#include <stdio.h>
+
+int main() {
+char name[10]="helloworld";
+  for(char i=0;i<10;i++){
+      printf("%c",name[i]-32);
+  }
+
+    return 0;
+}
+
+output=
+HELLOWORLD
